@@ -1,6 +1,200 @@
-@media only screen and (max-width: 600px) {
+
+/* responsive css code for contact us Page */
+
+/* Screen 1200 px responsiove CSS Start */
+@media only screen and (max-width: 1200px) {
+    .contact_page_form_section .main_section .contact_box .boxes span i {
+        font-size: 4rem;
+
+    }
+    .contact_page_form_section .main_section .contact_box .boxes h2 {
+        font-size: 2.2rem;
+        line-height: 4.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes p {
+        font-size: 1.6rem;
+    }
+
+}
+/* Screen 1200 px responsiove CSS End */
+
+/* Screen 1068 px responsiove CSS Start */
+@media only screen and (max-width: 1068px) {
+    .contact_page_banner_section .banner .content h1 {
+        font-size: 5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes span i {
+        font-size: 3.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes h2 {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 23%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes p {
+        font-size: 1.55rem;
+    }
+    .contact_page_form_section .main_section .contact_content {
+        padding-top: 15rem;
+    }
+    
+
+}
+/* Screen 1068 px responsiove CSS End */
+
+
+/* Screen 900 px responsiove CSS Start */
+@media only screen and (max-width: 900px) {
+    .contact_page_banner_section .banner .content h1 {
+        font-size: 4.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes span i {
+        font-size: 3.2rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes h2 {
+        font-size: 1.8rem;
+        line-height: 3.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes p {
+        font-size: 1.5rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 25%;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    .contact_page_form_section .main_section .contact_content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_page_form_section .main_section .contact_content .child {
+        width: 100%;
+        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+    }
+    .contact_page_form_section .main_section .contact_content .child:nth-child(1) {
+        border-bottom: 3px dotted var(--white);
+        
+    }
+    
+    .contact_page_form_section .main_section .contact_content .child:nth-child(2) {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        
+    }
     
     
+
+}
+/* Screen 900 px responsiove CSS End */
+
+
+/* Screen 730 px responsiove CSS Start */
+@media only screen and (max-width: 768px) {
+    .contact_page_banner_section .banner .content h1 {
+        font-size: 4.2rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes span i {
+        font-size: 3rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 27%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .contact_page_form_section .main_section .contact_content {
+        padding-top: 13rem;
+    }
+
 
 
 }
+/* Screen 730 px responsiove CSS End */
+
+
+/* Screen -- px responsiove CSS Start */
+@media only screen and (max-width: 600px) {
+    .contact_page_banner_section .banner .content h1 {
+        font-size: 4rem;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 65%;
+    }
+    .contact_page_form_section .main_section .contact_box {
+        position: relative;
+        left: 0;
+        right: 0;
+    }
+    .contact_page_form_section .main_section .contact_box {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: -26.5rem;
+        flex-direction: column;
+    }
+    .contact_page_form_section .blank_bg_color {
+        height: 50vh;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 63%;
+        /* margin-left: 1.2rem; */
+        /* margin-right: 1.2rem; */
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .contact_page_form_section .main_section .contact_content {
+        padding-top: 33rem;
+    }
+
+        
+
+}
+/* Screen -- px responsiove CSS End */
+
+
+
+/* Screen -- px responsiove CSS Start */
+@media only screen and (max-width: 600px) {
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 55%;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        padding: 2% 2%;
+    }
+    
+
+}
+/* Screen -- px responsiove CSS End */
+
+
+
+/* Screen 430 px responsiove CSS Start */
+@media only screen and (max-width: 430px) {
+    .contact_page_banner_section .banner .content h1 {
+        font-size: 3.5rem;
+    }
+    .contact_page_banner_section .banner .content h4 {
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 70%;
+    }
+    
+
+}
+/* Screen 430-- px responsiove CSS End */
+
+/* Screen 360 px responsiove CSS Start */
+@media only screen and (max-width: 430px) {
+    .contact_page_form_section .main_section .contact_box .boxes {
+        width: 80%;
+    }
+    
+
+}
+/* Screen 360-- px responsiove CSS End */
